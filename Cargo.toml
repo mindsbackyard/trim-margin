@@ -18,3 +18,6 @@ categories = ["value-formatting"]
 
 [dev-dependencies]
 galvanic-assert = "0.8.6"
+
+[badges]
+travis-ci = { repository = "mindsbackyard/trim-margin" }
