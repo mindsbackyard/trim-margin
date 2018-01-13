@@ -4,6 +4,7 @@
 
 This crate is intended to ease the use of multi-line strings in Rust.
 When embedding strings with multiple lines in Rust all whitespaces, tabs, etc. are preserved even if they are just used for layouting one's code nicely.
+
 ```Rust
 fn main() {
     println!("-----------------------");
@@ -30,6 +31,8 @@ Which is not very nice.";
 ```
 
 The `trim-margin` crate supports you with proper layouting.
+By introducing a margin in the multi-line string the `trim_margin` method can filter out unwanted whitespaces and blank lines.
+
 ```Rust
 extern crate trim_margin;
 use trim_margin::MarginTrimmable;
@@ -43,7 +46,7 @@ fn main() {
         | * a blank first/last line
         | * blanks before the margin prefix
         | * the margin prefix itself
-    ".trim_margin();
+    ".trim_margin().unwrap();
     println!("{}", multiline_string_with_margin);
 }
 ```

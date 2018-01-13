@@ -41,7 +41,8 @@
 //! }
 //! ```
 //!
-//! The `trim-margin` crate supports you with proper layouting.
+//! The `trim-margin` crate supports you with the proper layouting.
+//! By introducing a margin in the multi-line string the `trim_margin` method can filter out unwanted whitespaces and blank lines.
 //!
 //! ```
 //! extern crate trim_margin;
@@ -56,7 +57,7 @@
 //!         | * a blank first/last line
 //!         | * blanks before the margin prefix
 //!         | * the margin prefix itself
-//!     ".trim_margin();
+//!     ".trim_margin().unwrap();
 //!     println!("{}", multiline_string_with_margin);
 //! }
 //! ```
