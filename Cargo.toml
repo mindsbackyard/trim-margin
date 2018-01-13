@@ -1,0 +1,20 @@
+[package]
+name = "trim-margin"
+version = "0.1.0"
+authors = ["Christopher Bacher <mindsbackyard@gmail.com>"]
+
+description = "A utility crate to help with layouting multi-line strings by detecting their margin."
+
+homepage = "https://github.com/mindsbackyard/trim-margin"
+repository = "https://github.com/mindsbackyard/trim-margin"
+documentation = "https://docs.rs/trim-margin"
+
+readme = "Readme.md"
+
+license = "Apache-2.0"
+
+keywords = ["string", "utils", "multi-line"]
+categories = ["value-formatting"]
+
+[dev-dependencies]
+galvanic-assert = "0.8.6"
