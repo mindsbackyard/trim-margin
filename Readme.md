@@ -1,5 +1,6 @@
 # trim-margin: easy layouting of multi-line strings
 [![Build Status](https://travis-ci.org/mindsbackyard/trim-margin.svg?branch=master)](https://travis-ci.org/mindsbackyard/trim-margin)
+[![Documentation](https://docs.rs/trim-margin/badge.svg)](https://docs.rs/trim-margin)
 [![Crates.io](https://img.shields.io/crates/v/trim-margin.svg)](https://crates.io/crates/trim-margin)
 
 This crate is intended to ease the use of multi-line strings in Rust.
